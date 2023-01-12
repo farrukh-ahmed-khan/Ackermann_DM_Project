@@ -1,9 +1,9 @@
 let memo = {};
 
-let x = 3;
+let x = 2;
 let y = [];
 
-for (let i = 0; i < 12; i++) {
+for (let i = 0; i < 500; i++) {
   y.push(i);
 }
 
@@ -84,7 +84,7 @@ window.onload = () => {
                 <td>${i}</td>
                 <td>${x}</td>
                 <td>${y[i]}</td>
-                <td>${Math.ceil(Avg)}</td>
+                <td>${Avg}</td>
             </tr>
         `;
   }
